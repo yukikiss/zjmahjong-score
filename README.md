@@ -1,0 +1,1 @@
+# zjmahjong-score
