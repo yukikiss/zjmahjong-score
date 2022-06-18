@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zjmahjong-score</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <div class="container">
+        <table class="table">
+            <thead>
+                <th class="name"><input type="text" class="name-input" id="name0"></th>
+                <th class="name"><input type="text" class="name-input" id="name1"></th>
+                <th class="name"><input type="text" class="name-input" id="name2"></th>
+                <th class="name"><input type="text" class="name-input" id="name3"></th>
+            </thead>
+            <tbody id="record">
+            </tbody>
+        </table>
+    </div>
+
+    <div id="control-panel">
+
+        <div id="panel-inner" class="container">
+            <div class="row">
+                <h2>Control Panel</h2>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="d-grid gap-2 col-6 mx-auto">
+                        <h3>Player From</h3>
+                        <button class="btn btn-primary" type="button">Button</button>
+                        <button class="btn btn-primary" type="button">Button</button>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="d-grid gap-2 col-6 mx-auto">
+                        <h3>Player To</h3>
+                        <button class="btn btn-primary" type="button">Button</button>
+                        <button class="btn btn-primary" type="button">Button</button>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="d-grid gap-2 col-6 mx-auto">
+                        <h3>Action</h3>
+                        <button class="btn btn-primary" type="button">Record</button>
+                        <button class="btn btn-primary" type="button">Undo</button>
+                        <button class="btn btn-primary" type="button">Save</button>
+                        <button class="btn btn-primary" type="button">Load</button>
+                        <button class="btn btn-primary" type="button">Reset</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
